@@ -2,9 +2,9 @@ using System;
 
 public class Entry
 {
-    private string _date;
-    private string _promptText;
-    private string _entryText;
+    public string _date;
+    public string _promptText;
+    public string _entryText;
 
     public Entry(string date, string promptText, string entryText)
     {
@@ -13,8 +13,7 @@ public class Entry
         _entryText = entryText;
     }
 
-    
-    public string Date => _date;         
+     public string Date => _date;         
     public string Prompt => _promptText;  
     public string Text => _entryText;     
 

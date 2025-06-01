@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class PromptGenerator
 {
-    private List<string> _prompts = new List<string>
+    public List<string> _prompts = new List<string>
     {
         "What made you smile today?",
         "What is one thing you're grateful for?",
